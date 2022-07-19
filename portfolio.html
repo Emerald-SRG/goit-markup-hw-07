@@ -17,44 +17,42 @@
   </head>
   <body>
     <header class="header">
-      <section class="header-section">
-        <div class="nav-box container">
-          <a class="logo webstudio link" href="./index.html">
-            <span class="logo-header">Web</span>Studio</a
+        <div class="header__logo container">
+          <a class="link header__link" href="./index.html">
+            Web<span class="header__link--inverse">Studio</span></a
           >
           <nav class="header-nav">
-            <ul class="list nav-ulka">
-              <li class="nav-li">
-                <a class="nav-link link" href="./index.html">Студия</a>
+            <ul class="list header-nav__list">
+              <li class="header-nav__item">
+                <a class="header-nav__link" href="./index.html">Студия</a>
               </li>
-              <li class="nav-li">
-                <a class="nav-link active link" href="./portfolio.html"
-                  >Портфолио</a
-                >
+              <li class="header-nav__item">
+                <a class="header-nav__link header-nav__link--active" href="./portfolio.html">Портфолио</a>
               </li>
-              <li><a class="nav-link link" href="./index.html">Контакты</a></li>
+              <li><a class="header-nav__link" href="./index.html">Контакты</a></li>
             </ul>
           </nav>
-          <ul class="list contacts-ulka">
-            <li class="contacts-li">
-              <a
-                class="header-contacts hmail link"
-                href="mailto:info@devstudio.com"
-                ><svg class="icon-sms" width="16" height="12">
-                  <use href="./images/icons.svg#icon-sms"></use></svg
-                >info@devstudio.com</a
+
+          <ul class="list header-contacts">
+            <li class="header-contacts__item">
+              
+              <a class="header-contacts__link header-contacts__link--indent" href="mailto:info@devstudio.com"
+                ><svg class="header-contacts__icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-sms"></use>
+              </svg>info@devstudio.com</a
               >
             </li>
-            <li class="contacts-li">
-              <a class="header-contacts link teleph" href="tel:+380961111111"
-                ><svg class="icon-tel" width="10" height="16">
-                  <use href="./images/icons.svg#icon-tel"></use></svg
-                >+38 096 111 11 11</a
+            <li class="header-contacts__item">
+              
+              <a class="header-contacts__link" href="tel:+380961111111"
+              ><svg class="header-contacts__icon" width="10" height="16">
+                <use href="./images/icons.svg#icon-tel"></use>
+              </svg>+38 096 111 11 11</a
               >
             </li>
-          </ul>
+        </ul>
         </div>
-      </section>
+    
     </header>
 
     <main>
@@ -62,21 +60,21 @@
         <div class="container">
           <ul class="list buttons-ulka">
             <li class="button-li">
-              <button class="btn-portfolio btn" type="button">Все</button>
+              <button class="btn-portfolio" type="button">Все</button>
             </li>
             <li class="button-li">
-              <button class="btn-portfolio btn" type="button">Веб-сайты</button>
+              <button class="btn-portfolio" type="button">Веб-сайты</button>
             </li>
             <li class="button-li">
-              <button class="btn-portfolio btn" type="button">
+              <button class="btn-portfolio" type="button">
                 Приложения
               </button>
             </li>
             <li class="button-li">
-              <button class="btn-portfolio btn" type="button">Дизайн</button>
+              <button class="btn-portfolio" type="button">Дизайн</button>
             </li>
             <li class="button-li">
-              <button class="btn-portfolio btn" type="button">Маркетинг</button>
+              <button class="btn-portfolio" type="button">Маркетинг</button>
             </li>
           </ul>
         </div>
@@ -298,14 +296,14 @@
     <footer class="footer">
         <div class="container footer-box">
           <div>
-        <a class="logo footer-logo link" lang="en" href="./index.html"
-          ><span class="footer-web">Web</span><span class="logo-footer">Studio</span></a
+        <a class="link footer__link" lang="en" href="./index.html"
+          >Web<span class="footer__link--inverse">Studio</span></a
         >
         <address>
           <ul class="list footer-ulka">
             <li class="footer-li">
               <a
-                class="address link"
+                class="address"
                 href="https://goo.gl/maps/CcYmPfw3a3xQvwCz5"
                 target="_blank"
                 rel="noreferrer noopener"
@@ -313,12 +311,12 @@
               >
             </li>
             <li class="footer-li">
-              <a class="footer-mail link" href="mailto:info@example.com"
+              <a class="footer-mail" href="mailto:info@example.com"
                 >info@example.com</a
               >
             </li>
             <li class="footer-li">
-              <a class="footer-tel link" href="tel:+380991111111"
+              <a class="footer-tel" href="tel:+380991111111"
                 >+38 099 111 11 11</a
               >
             </li>
@@ -328,9 +326,9 @@
         <div class="footer-community">
           <p class="footer-social">Присоединяйтесь</p>
 
-           <ul class="team-icons list">
+           <ul class="member__contacts list">
                     <li class="icon-footer">
-                      <a class="go-social footer link" href="#">
+                      <a class="member__link footer" href="#">
                         <svg
                           class="footer-sociale"
                           width="20"
@@ -341,7 +339,7 @@
                       </a>
                     </li>
                     <li class="icon-footer">
-                      <a class="go-social footer link" href="#">
+                      <a class="member__link footer" href="#">
                         <svg
                           class="footer-sociale"
                           width="20"
@@ -352,7 +350,7 @@
                       </a>
                     </li>
                     <li class="icon-footer">
-                      <a class="go-social footer link" href="#">
+                      <a class="member__link footer" href="#">
                         <svg
                           class="footer-sociale"
                           width="20"
@@ -363,7 +361,7 @@
                       </a>
                     </li>
                     <li class="icon-footer">
-                      <a class="go-social footer link" href="#">
+                      <a class="member__link footer" href="#">
                         <svg
                           class="footer-sociale"
                           width="20"
