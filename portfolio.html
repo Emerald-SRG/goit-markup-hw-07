@@ -17,9 +17,9 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__logo container">
-        <a class="link header__link" href="./index.html">
-          Web<span class="header__link--inverse">Studio</span></a
+      <div class="header__logo-box container">
+        <a class="link header__logo" href="./index.html">
+          Web<span class="header__logo--inverse">Studio</span></a
         >
         <nav class="header-nav">
           <ul class="list header-nav__list">
@@ -59,198 +59,208 @@
     <main>
       <section class="projects">
         <div class="container">
-          <ul class="list buttons-ulka">
-            <li class="button-li">
-              <button class="btn-portfolio" type="button">Все</button>
+          <ul class="list projects__list">
+            <li class="projects__item">
+              <button class="projects__button" type="button">Все</button>
             </li>
-            <li class="button-li">
-              <button class="btn-portfolio" type="button">Веб-сайты</button>
+            <li class="projects__item">
+              <button class="projects__button" type="button">Веб-сайты</button>
             </li>
-            <li class="button-li">
-              <button class="btn-portfolio" type="button">Приложения</button>
+            <li class="projects__item">
+              <button class="projects__button" type="button">Приложения</button>
             </li>
-            <li class="button-li">
-              <button class="btn-portfolio" type="button">Дизайн</button>
+            <li class="projects__item">
+              <button class="projects__button" type="button">Дизайн</button>
             </li>
-            <li class="button-li">
-              <button class="btn-portfolio" type="button">Маркетинг</button>
+            <li class="projects__item">
+              <button class="projects__button" type="button">Маркетинг</button>
             </li>
           </ul>
-        </div>
-        <div class="container">
-          <ul class="list projects-ulka project-card">
-            <li class="project-li project-card-li">
-              <div class="project-rel">
-                <img class="image-project" src="./images/p2i1.jpg" alt="Технокряк" width="370" />
-                <div class="project-abs">
-                  <p class="card-text">
+
+          <ul class="list project-cards">
+            <li class="project-cards__item project-cards__item--float">
+              <div class="project-cards__container">
+                <img
+                  class="project-cards__image"
+                  src="./images/p2i1.jpg"
+                  alt="Технокряк"
+                  width="370"
+                />
+                <div class="hidden-box project-cards__hidden-box">
+                  <p class="hidden-box__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
                     или частном лице.
                   </p>
                 </div>
               </div>
-              <div class="card">
-                <h2 class="project-name">Технокряк</h2>
-                <p class="project-type">Веб-сайт</p>
+              <div class="titles project-cards__titles">
+                <h2 class="titles__name">Технокряк</h2>
+                <p class="titles__description">Веб-сайт</p>
               </div>
             </li>
-            <li class="project-li project-card-li">
-              <div class="project-rel">
+
+            <li class="project-cards__item project-cards__item--float">
+              <div class="project-cards__container">
                 <img
-                  class="image-project"
+                  class="project-cards__image"
                   src="./images/p2i2.jpg"
                   alt="New Orlean vs Golden Star"
                   width="370"
                 />
-                <div class="project-abs">
-                  <p class="card-text">
+                <div class="hidden-box project-cards__hidden-box">
+                  <p class="hidden-box__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
                     или частном лице.
                   </p>
                 </div>
               </div>
-              <div class="card">
-                <h2 class="project-name">
+              <div class="titles project-cards__titles">
+                <h2 class="titles__name">
                   Постер <span lang="en">New Orlean vs Golden Star</span>
                 </h2>
-                <p class="project-type">Дизайн</p>
+                <p class="titles__description">Дизайн</p>
               </div>
             </li>
-            <li class="project-li project-card-li">
-              <div class="project-rel">
-                <img class="image-project" src="./images/p2i3.jpg" alt="Seafood" width="370" />
-                <div class="project-abs">
-                  <p class="card-text">
+            <li class="project-cards__item project-cards__item--float">
+              <div class="project-cards__container">
+                <img
+                  class="project-cards__image"
+                  src="./images/p2i3.jpg"
+                  alt="Seafood"
+                  width="370"
+                />
+                <div class="hidden-box project-cards__hidden-box">
+                  <p class="hidden-box__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
                     или частном лице.
                   </p>
                 </div>
               </div>
-              <div class="card">
-                <h2 class="project-name">Ресторан <span lang="en">Seafood</span></h2>
-                <p class="project-type">Приложение</p>
+              <div class="titles project-cards__titles">
+                <h2 class="titles__name">Ресторан <span lang="en">Seafood</span></h2>
+                <p class="titles__description">Приложение</p>
               </div>
             </li>
           </ul>
-          <ul class="list projects-ulka project-card">
-            <li class="project-li project-card-li">
-              <div class="project-rel">
-                <img class="image-project" src="./images/p2i4.jpg" alt="Prime" width="370" />
-                <div class="project-abs">
-                  <p class="card-text">
+          <ul class="list project-cards">
+            <li class="project-cards__item project-cards__item--float">
+              <div class="project-cards__container">
+                <img class="project-cards__image" src="./images/p2i4.jpg" alt="Prime" width="370" />
+                <div class="hidden-box project-cards__hidden-box">
+                  <p class="hidden-box__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
                     или частном лице.
                   </p>
                 </div>
               </div>
-              <div class="card">
-                <h2 class="project-name">Проект <span lang="en">Prime</span></h2>
-                <p class="project-type">Маркетинг</p>
+              <div class="titles project-cards__titles">
+                <h2 class="titles__name">Проект <span lang="en">Prime</span></h2>
+                <p class="titles__description">Маркетинг</p>
               </div>
             </li>
-            <li class="project-li project-card-li">
-              <div class="project-rel">
-                <img class="image-project" src="./images/p2i5.jpg" alt="Boxes" width="370" />
-                <div class="project-abs">
-                  <p class="card-text">
+            <li class="project-cards__item project-cards__item--float">
+              <div class="project-cards__container">
+                <img class="project-cards__image" src="./images/p2i5.jpg" alt="Boxes" width="370" />
+                <div class="hidden-box project-cards__hidden-box">
+                  <p class="hidden-box__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
                     или частном лице.
                   </p>
                 </div>
               </div>
-              <div class="card">
-                <h2 class="project-name">Проект <span lang="en">Boxes</span></h2>
-                <p class="project-type">Приложение</p>
+              <div class="titles project-cards__titles">
+                <h2 class="titles__name">Проект <span lang="en">Boxes</span></h2>
+                <p class="titles__description">Приложение</p>
               </div>
             </li>
-            <li class="project-li project-card-li">
-              <div class="project-rel">
+            <li class="project-cards__item project-cards__item--float">
+              <div class="project-cards__container">
                 <img
-                  class="image-project"
+                  class="project-cards__image"
                   src="./images/p2i6.jpg"
                   alt="Inspiration has no Borders"
                   width="370"
                 />
-                <div class="project-abs">
-                  <p class="card-text">
+                <div class="hidden-box project-cards__hidden-box">
+                  <p class="hidden-box__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
                     или частном лице.
                   </p>
                 </div>
               </div>
-              <div class="card">
-                <h2 class="project-name">
+              <div class="titles project-cards__titles">
+                <h2 class="titles__name">
                   <span lang="en">Inspiration has no Borders</span>
                 </h2>
-                <p class="project-type">Веб-сайт</p>
+                <p class="titles__description">Веб-сайт</p>
               </div>
             </li>
           </ul>
-          <ul class="list projects-ulka project-card">
-            <li class="project-li project-card-li">
-              <div class="project-rel">
+          <ul class="list project-cards">
+            <li class="project-cards__item project-cards__item--float">
+              <div class="project-cards__container">
                 <img
-                  class="image-project"
+                  class="project-cards__image"
                   src="./images/p2i7.jpg"
                   alt="Limited Edition"
                   width="370"
                 />
-                <div class="project-abs">
-                  <p class="card-text">
+                <div class="hidden-box project-cards__hidden-box">
+                  <p class="hidden-box__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
                     или частном лице.
                   </p>
                 </div>
               </div>
-              <div class="card">
-                <h2 class="project-name">Издание <span lang="en">Limited Edition</span></h2>
-                <p class="project-type">Дизайн</p>
+              <div class="titles project-cards__titles">
+                <h2 class="titles__name">Издание <span lang="en">Limited Edition</span></h2>
+                <p class="titles__description">Дизайн</p>
               </div>
             </li>
-            <li class="project-li project-card-li">
-              <div class="project-rel">
-                <img class="image-project" src="./images/p2i8.jpg" alt="LAB" width="370" />
-                <div class="project-abs">
-                  <p class="card-text">
+            <li class="project-cards__item project-cards__item--float">
+              <div class="project-cards__container">
+                <img class="project-cards__image" src="./images/p2i8.jpg" alt="LAB" width="370" />
+                <div class="hidden-box project-cards__hidden-box">
+                  <p class="hidden-box__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
                     или частном лице.
                   </p>
                 </div>
               </div>
-              <div class="card">
-                <h2 class="project-name">Проект <span></span> LAB</h2>
-                <p class="project-type">Маркетинг</p>
+              <div class="titles project-cards__titles">
+                <h2 class="titles__name">Проект <span></span> LAB</h2>
+                <p class="titles__description">Маркетинг</p>
               </div>
             </li>
-            <li class="project-li project-card-li">
-              <div class="project-rel">
+            <li class="project-cards__item project-cards__item--float">
+              <div class="project-cards__container">
                 <img
-                  class="image-project"
+                  class="project-cards__image"
                   src="./images/p2i9.jpg"
                   alt="Growing Business"
                   width="370"
                 />
-                <div class="project-abs">
-                  <p class="card-text">
+                <div class="hidden-box project-cards__hidden-box">
+                  <p class="hidden-box__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
                     или частном лице.
                   </p>
                 </div>
               </div>
-              <div class="card">
-                <h2 class="project-name">
+              <div class="titles project-cards__titles">
+                <h2 class="titles__name">
                   <span lang="en">Growing Business</span>
                 </h2>
-                <p class="project-type">Приложение</p>
+                <p class="titles__description">Приложение</p>
               </div>
             </li>
           </ul>
@@ -260,30 +270,30 @@
 
     <!-- Футер -->
     <footer class="footer">
-      <div class="container footer-box">
+      <div class="container footer-contacts footer__footer-contacts">
         <div>
-          <a class="footer-box__link" lang="en" href="./index.html"
-            >Web<span class="footer-box__link--inverse">Studio</span></a
+          <a class="footer__logo" lang="en" href="./index.html"
+            >Web<span class="footer__logo--inverse">Studio</span></a
           >
-          <footer-box__address>
-            <ul class="list footer-box__list">
-              <li class="footer-box__item">
+          <footer-contacts__address>
+            <ul class="list footer-contacts__list">
+              <li class="footer-contacts__item">
                 <a
-                  class="footer-box__address"
+                  class="footer-contacts__address"
                   href="https://goo.gl/maps/CcYmPfw3a3xQvwCz5"
                   target="_blank"
                   rel="noreferrer noopener"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="footer-box__item">
-                <a class="footer-mail" href="mailto:info@example.com">info@example.com</a>
+              <li class="footer-contacts__item">
+                <a class="footer-contacts__link" href="mailto:info@example.com">info@example.com</a>
               </li>
-              <li class="footer-box__item">
-                <a class="footer-tel" href="tel:+380991111111">+38 099 111 11 11</a>
+              <li class="footer-contacts__item">
+                <a class="footer-contacts__link" href="tel:+380991111111">+38 099 111 11 11</a>
               </li>
             </ul>
-          </footer-box__address>
+          </footer-contacts__address>
         </div>
 
         <div class="footer-community">

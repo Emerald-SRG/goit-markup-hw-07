@@ -17,9 +17,9 @@
   </head>
   <body>
     <header class="header">
-        <div class="header__logo container">
-          <a class="link header__link" href="./index.html">
-            Web<span class="header__link--inverse">Studio</span></a
+        <div class="header__logo-box container">
+          <a class="link header__logo" href="./index.html">
+            Web<span class="header__logo--inverse">Studio</span></a
           >
           <nav class="header-nav">
             <ul class="list header-nav__list">
@@ -42,8 +42,8 @@
               </svg>info@devstudio.com</a
               >
             </li>
+
             <li class="header-contacts__item">
-              
               <a class="header-contacts__link" href="tel:+380961111111"
               ><svg class="header-contacts__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-tel"></use>
@@ -453,35 +453,34 @@
 
     <!-- Наші контакти -->
     <footer class="footer">
-      
-        <div class="container footer-box">
+        <div class="container footer-contacts footer__footer-contacts">
           <div>
-            <a class="footer-box__link" lang="en" href="./index.html"
-            >Web<span class="footer-box__link--inverse">Studio</span></a
+            <a class="footer__logo" lang="en" href="./index.html"
+            >Web<span class="footer__logo--inverse">Studio</span></a
             >
-            <footer-box__address>
-              <ul class="list footer-box__list">
-                <li class="footer-box__item">
+            <footer-contacts__address>
+              <ul class="list footer-contacts__list">
+                <li class="footer-contacts__item">
                 <a
-                  class="footer-box__address"
+                  class="footer-contacts__address"
                   href="https://goo.gl/maps/CcYmPfw3a3xQvwCz5"
                   target="_blank"
                   rel="noreferrer noopener"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
                 </li>
-                <li class="footer-box__item">
-                <a class="footer-mail" href="mailto:info@example.com"
+                <li class="footer-contacts__item">
+                <a class="footer-contacts__link" href="mailto:info@example.com"
                   >info@example.com</a
                 >
                 </li>
-                <li class="footer-box__item">
-                <a class="footer-tel" href="tel:+380991111111"
+                <li class="footer-contacts__item">
+                <a class="footer-contacts__link" href="tel:+380991111111"
                   >+38 099 111 11 11</a
                 >
                 </li>
               </ul>
-            </footer-box__address>
+            </footer-contacts__address>
           </div>
 
           <div class="footer-community">
@@ -553,8 +552,8 @@
         </div>
     </footer>
 
+    <!-- Модальне вікно -->
     <div class="backdrop backdrop--hidden" data-modal>
-
       <div class="modal">
         <button type="button" class="modal__button" data-modal-close>
           <svg class="modal__icon-close" width="18" height="18">
@@ -562,9 +561,7 @@
           </svg>
         </button>
 
-        
-
-        <form name="modal_form" class="modal-form">
+        <form name="form-modal" class="modal__form">
           <p class="modal__title">Оставьте свои данные, мы Вам перезвоним</p>
           <div>
           <ul class="modal__list">
