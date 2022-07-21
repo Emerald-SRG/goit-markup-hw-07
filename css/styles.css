@@ -386,7 +386,6 @@ img {
     padding: 0;
 }
 .customers__item {
-    width: calc((100%-150px) / 6);
     width: 170px;
     height: 92px;
 
@@ -505,7 +504,7 @@ img {
     border-radius: 50%;
     border: inherit;
     padding: 12px;
-    fill: rgba(175, 177, 184, 1);
+    background: rgba(255, 255, 255, 0.1);
     transition-property: fill, background-color;
 }
 .footer-community__link:hover,

@@ -610,7 +610,7 @@ h1, h2, h3, h4, h5, h6, p {
   border-radius: 50%;
   border: inherit;
   padding: 12px;
-  fill: rgb(175, 177, 184);
+  background: rgba(255, 255, 255, 0.1);
   -webkit-transition-property: fill, background-color;
   transition-property: fill, background-color;
 }
