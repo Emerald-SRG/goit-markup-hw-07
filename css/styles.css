@@ -22,7 +22,7 @@ body {
     color: var(--text);
     font-size: 16px;
 }
-a {
+.link {
     text-decoration: none;
 }
 .list {
@@ -590,7 +590,7 @@ img {
     transition-duration: 550ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.backdrop--hidden {
+.backdrop-hidden {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
